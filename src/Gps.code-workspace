@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"name": "Gps",
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../../../xampp/htdocs/Gps-Php"
+		}
+	],
+	"settings": {}
+}

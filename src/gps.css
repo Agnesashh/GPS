@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background: blanchedalmond;
+    font-family: 'Poppins', 'sans-serif';
+    height: 100vh;
+    /* overflow removed to allow scrolling */
+}
+
+.btn .btn-link .mt-4{
+    display: flex;
+}
+
+.fixed-form-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow removed to allow scrolling */
+}
+
+form {
+    max-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    background-color: transparent;
+    color: transparent;
+    padding: 50px;
+    border-radius: 20px;
+    border-top: 20px;
+    overflow-y: auto;
+}
+
+.mb-3 {
+    color: pink;
+}
+
+.btn-primary {
+    width: 50%;
+    border: 0;
+    border-radius: 50x;
+    background: linear-gradient(90deg, rgba(2, 0, 10)0%, rgb(239, 237, 241)35%, rgb(245, 196, 189)100%);
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-control {
+    background-color: transparent;
+    border-bottom-color: white;
+    box-shadow: none !important;
+    border: none;
+    border-bottom: 2px solid;
+    border-radius: 0px;
+}
+
+h2 {
+    font-size: 2rem !important;
+    font-weight: 700;
+    color: pink;
+    margin-bottom: 20px;
+}
+
+.form-label {
+    font-family: 800 !important;
+}
+
+.role-toggle {
+    display: flex;
+    border-top: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    cursor: pointer;
+    background: transaprent;
+}
+
+.role-toggle .option {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    background: transparent;
+    border-top: 3px solid transaparent;
+    color: whitesmoke;
+    transition: all 0.2s ease-in-out;
+}
+
+.role-toggle .option .active {
+    color: #000;
+    border-top: 3px solid #000;
+    font-weight: bold;
+}
+
+@media(max-width: 1100px) {
+    .halfWidth {
+        flex-basis: 100%;
+    }
+}
+
+@media(max-width:900px) {
+    .row {
+        flex-wrap: wrap;
+    }
+}
